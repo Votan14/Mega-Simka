@@ -721,8 +721,10 @@ body.ie ._ibg img {
   margin-bottom: 20px;
 }
 
-.menu {
-  display: none;
+@media (max-width: 991.98px) {
+  .menu {
+    display: none;
+  }
 }
 .menu._active {
   display: block;
@@ -902,6 +904,9 @@ body.ie ._ibg img {
   color: #1684bc;
 }
 
+.banner {
+  text-align: center;
+}
 .banner img {
   max-width: 100%;
 }
